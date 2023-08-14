@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;;
+}
+body{
+    height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bdc3c7;
+    color: #fff;
+}
+#container{
+    width: 95%;
+    height: 97%;
+    /* border: 0.5px solid #7f8c8d; */
+    background-color: #3498db;
+    padding: 3px 2vw;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 2px black;
+}
+
+#container h1{
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+#password-box{
+    border: none;
+    outline: none;
+    padding: 4px;
+    /* width: 300px; */
+    margin-bottom: 12px;
+    font-size: 30px;
+    font-weight: 600;
+    box-shadow: 2px 2px 5px black;
+}
+#slider{
+    margin-bottom: 12px;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center;
+    margin-bottom: 12px;
+}
+#slider-value{
+    font-size: 15px;
+}
+.row input[type="checkbox"]{
+    width: 15px;
+    height: 15px;
+}
+.row p ,.row label{
+    font-size: 18px;
+ 
+}
+#generate-button{
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 10px 0;
+    font-weight: 700;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#generate-button:hover{
+    background-color: aqua;
+}
